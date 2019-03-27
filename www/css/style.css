@@ -22,9 +22,14 @@ select{
 button{
   margin-top: 20px;
 }
-input.form-control{
+#idade.form-control,#peso.form-control,#altura.form-control{
   width: 100px;
 }
 .col-xs-6{
   margin: 20px;
+}
+.display{
+  height: 48px;
+  font-size: 20px;
+  text-align: left;
 }
