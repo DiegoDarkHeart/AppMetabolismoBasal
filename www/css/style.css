@@ -3,5 +3,6 @@
   width: 120px;
 }
 #head{
-  
+  border-bottom: 2px;
+  border-color: black;
 }
