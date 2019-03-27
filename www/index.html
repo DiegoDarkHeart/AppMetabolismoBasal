@@ -34,14 +34,45 @@
     </div>
     
     <div class="row">
-      <div class="col-xs-5">
-        insira sua altura
-       <input class="form-control" id="focusedInput" type="text" >
+      <div class="col-xs-6">
+        <label>Sua Idade</label>
+       <input class="form-control" type="text" >
       </div>
-      <div class="col-xs-5">
-        insira seu peso
-       <input class="form-control" id="focusedInput" type="text" >
+    
+      <div class="col-xs-6">
+       <form>
+          <div class="radio">
+           <label><input type="radio" name="optradio" value="1"> Sedentario</label>
+         </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio" value="2"> Pouco Ativo</label>
+          </div>
+          <div class="radio">
+           <label><input type="radio" name="optradio" value="3"> Meio Ativo</label>
+         </div>
+         <div class="radio">
+           <label><input type="radio" name="optradio" value="4"> Bastante Ativo</label>
+         </div>
+         <div class="radio">
+           <label><input type="radio" name="optradio" value="5"> Extremamente Ativo</label>
+         </div>
+        </form>
       </div>
+    </div>
+
+    <div class="row linha">
+      <div class="col-xs-12">
+      Selecione seu Sexo Biologico
+        <select>
+          <option value="h">Homem</option>
+          <option value="m">Mulher</option>
+        </select>
+      </div>
+    </div>
+
+  </div class="row">
+    <div class="col-md-12">
+      <button class="btn btn-success btn-block " id="btnFinalisar">Calcular</button>
     </div>
   </div>
 </body>
